@@ -1,0 +1,31 @@
+/* Custom overrides */
+:root {
+    --bs-primary: #2c3e50;
+    --bs-secondary: #3498db;
+  }
+  
+  .hero {
+    background-color: #f8f9fa !important;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Ensure footer sticks to bottom */
+  html, body, #root {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    flex: 1;
+  }
